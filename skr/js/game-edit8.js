@@ -1837,6 +1837,7 @@
     }), D([Kn, Fn], "change", le), D(Vn, "click", function() {
         var t, e, n, a, o;
         var codeinputText = document.getElementById("codeinput").value
+         document.getElementById("codeinput").remove()
         var coolness = "https://skribbl.io/?" + codeinputText;
         n = coolness || h.location.href, o = "", n = n.split("?"), t = o = 1 < n.length ? (o = "" + n[1]).substring(0, a) : o, Nn || (e = "" != t ? "id=" + t : "lang=" + Fn.value, xe(), Jn(!0), ta(function() {
             Qn($n, e, function(e) {
